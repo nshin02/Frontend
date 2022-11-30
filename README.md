@@ -1,0 +1,2 @@
+# Gridify-SpotifyVisualizer
+Spotify Visualizer
