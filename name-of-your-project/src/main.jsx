@@ -7,19 +7,18 @@ import {
   // Route,
 } from "react-router-dom";
 import "./index.css";
-import { Splash } from "./visualization";
-// import { Visualization } from "./visualization";
+import { Splash } from "./splash";
+import { Visualization } from "./visualization";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Splash />,
   },
-
-  // {
-  //   path: "/login",
-  //   element: <Visualization />,
-  // },
+  {
+    path: "/login",
+    element: <Visualization />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
