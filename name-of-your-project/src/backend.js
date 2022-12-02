@@ -7,7 +7,7 @@ var cookieParser = require("cookie-parser");
 
 var client_id = "ede23364c1c54aeb9874a81ee275d968";
 var client_secret = "5e4ecc92d02b4bb287d5f8f168c221a7";
-var redirect_uri_link = "http://localhost:5173/callback"; // check local host port later
+var redirect_uri_link = "http://localhost:3000/callback"; // check local host port later
 
 var top_tracks = [];
 
@@ -160,8 +160,5 @@ app.get("/refresh_token", function (req, res) {
   });
 });
 
-console.log("Listening on 5173");
-app.listen(5173);
-
-
-
+console.log("Listening on 3000");
+app.listen(3000);
